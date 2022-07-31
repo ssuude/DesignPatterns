@@ -1,0 +1,15 @@
+Kelime anlamı gözlemcidir.Davranışsal tasarım desenidir.
+Nesen kendisine bağlı olanların bir listesini tutar. Buna observer denir.
+Nesne kümesinde one-to-many ilişkisi vardır.
+Herhangi bir olayda , değişiklikte nesne otomatik olarak hepsini bilgilendirir.
+Örnek olarak bir blog sayfasının yeni yazılarından haberder olmak için abone olmamızı düşünebiliriz.
+Böylece blogta bir değişiklik olduğunda bize bildirim gelecektir.
+
+Abone nesnelerine referansların bir listesini depolamak için dizi kullanılır.
+Abone listesi dinamiktir. Yani istenildiğinde ekleme, çıkarma yapılabilir.Aboneler rastele sırayla bilgilendirilir.
+
+
+Abonelik mekanizmasını düğmelerinize ekleyerek istemcilerin özel kodlarını özel abone sınıfları aracılığıyla bağlamasına izin verebilirsiniz.
+
+Yayıncıların abonelerle yalnızca abone arayüzü üzerinden çalışması gerektiğini unutmayın.
+

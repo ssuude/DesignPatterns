@@ -1,0 +1,15 @@
+
+
+SINGLETON NEDİR?
+
+Bir sınıftan bir nesne oluşturmak istenildiği zaman kullanılanınıfın yalnızca bir 
+örneğe sahip olmasını sağlayan tasarım modelidir. Farklı sınıfların içinden 
+aynı instance e erişilebilir.
+Bir nesnenin tek olmasını garanti eder.Nesne global olarak erişilebilir olur.
+
+
+KULLANIMI
+
+İlk olarak yapıcı metodun erişim belirleyicisi private yapılmalıdır.
+Nesne kendi türünde static bir nesne tanımlanılır. Bu nesneyi kullanmak için static metot 
+tanımlanır.

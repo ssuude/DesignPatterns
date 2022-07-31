@@ -1,0 +1,11 @@
+Nesnelere dinamik yeni davranışlar eklememizi sağlayan yapısal tasarım desenidir.
+Yani bu desen, bir nesneye alt sınıflar yaratılmaksızın, 
+dinamik olarak yeni özellikler kazandırmak için kullanılır.
+
+
+
+Component class : Üzerine dinamik olarak özellik ve davranış eklenecek olan nesnenin classı.
+
+Decorator class : Dinamik olarak özelliğin ve davranışın eklendiği class.
+
+IComponent  : Component ve Decorator classın türediği interface.
